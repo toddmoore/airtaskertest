@@ -1,6 +1,6 @@
 ##Airtasker Javascript Test
 
-Thanks for your interest in Airtasker.  As part of our hiring process Airtasker likes to ask candidates to complete a short exercise.  It is designed to allow candidates to show off their coding skills and helps us assess a candidates abilities.
+Thanks for your interest in Airtasker.  As part of our hiring process Airtasker likes to ask candidates to complete a short exercise.  It is designed to allow candidates to show off their coding skills and helps us assess a candidate's abilities.
 
 The exercise should take between 2 and 4 hours to complete.
 
