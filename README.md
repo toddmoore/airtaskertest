@@ -4,8 +4,6 @@ Thanks for your interest in Airtasker.  As part of our hiring process Airtasker 
 
 The exercise should take between 2 and 4 hours to complete.
 
-To complete the exercise please fork this repository and then let us know when you are ready for us to review your solution.
-
 ###Objective
 
 You have been provided with "main.js".  This is the entry point of the application.  This script will load the JSON file "activity_feed.json" which is parsed and then passed to an empty method "solution.generateActivityList".  You can run the script with
@@ -18,11 +16,12 @@ You can test your output against the expected output with
 
     node test.js
 
-
 We encourage you to ask any questions about the exercise.
 
 You are not restricted to a single function or file.  You can structure your solution however you like.
 
 You are welcome to use any node modules or third party libraries you see fit.
+
+To complete the exercise please zip up your solution and email it back to us so we can review your submission.
 
 Best of luck ;)
