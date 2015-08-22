@@ -1,0 +1,24 @@
+{
+  "name": "javascript-test",
+  "version": "1.0.0",
+  "description": "Thanks for your interest in Airtasker.  As part of our hiring process Airtasker likes to ask candidates to complete a short exercise.  It is designed to allow candidates to show off their coding skills and helps us assess a candidate's abilities.",
+  "main": "main.js",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "stampit": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airtasker/javascript-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airtasker/javascript-test/issues"
+  },
+  "homepage": "https://github.com/airtasker/javascript-test"
+}
