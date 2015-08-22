@@ -1,7 +1,6 @@
 (function() {
   var solution,
   stampit = require('stampit'),
-  _ = require("lodash"),
 
   // Object References
   templateMethods,
