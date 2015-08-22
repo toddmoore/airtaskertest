@@ -104,19 +104,25 @@
    * @type {Object}
    */
   dataMethods = {
+    /**
+     * Returns array from '{key:value}'
+     * @param  {String} string {key:value}
+     * @return {Array}
+     */
     getKeyAndValueFromString: function(string){
         return string.substring(string.indexOf("{")+2, string.indexOf("}")).split(":");
     },
+    /**
+     * Returns item from datastore
+     * @param  {Object} data Datastore reference
+     * @param  {Object} ref  {id:Number, key:String}
+     * @return {Object}
+     */
     getItem: function(data, ref){
       ref.key[ref.key.length-1] == 's' ? ref.key : ref.key=ref.key+'s'; // all keys are plural
       return data[ref.key].filter(function(item){
         return parseInt(item.id) == parseInt(ref.id);
       })[0]
-    },
-    getProfiles: function(data, arrayOfProfiles){
-      return arrayOfProfiles.map(function(profileId){
-        return this.getItem(data, {id: profileId, key: "profiles"});
-      }.bind(this))
     }
   };
 
